@@ -33,7 +33,7 @@ for patent_file_name in file_list:
             description = soup.find("description").get_text()
             real_description = " ".join(description.split())
             
-           #patent_infos = []
+            #patent_infos = []
             #patent_info = []
             #patent_info.append(doc_id)
             #patent_info.append(invention_title)
